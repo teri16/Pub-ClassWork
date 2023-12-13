@@ -1,4 +1,5 @@
-# CozyHosting
+# HTB-CozyHosting
+> Ｏ翰 & Ｏ東
 
 先用nmap進行端口掃描，發現開啟port 22及80，
 訪問port 80的網站，看看是否有進入點可以利用

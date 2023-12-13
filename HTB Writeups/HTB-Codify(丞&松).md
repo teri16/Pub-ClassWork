@@ -1,4 +1,6 @@
 # Codify靶機練習(easy)
+> Ｏ育 & Ｏ慶
+
  1.	nmap掃描弱點後發現有三個開啟的port-22(ssh)/ port-80(網站)/port-3000(Node.js Express framework)，可嘗試利用
     ![image](https://github.com/TwMoonBear-Arsenal/Pub-ClassWork/assets/124786200/45d5e870-7d9c-454d-9e01-168c59098137)
    	![image](https://github.com/TwMoonBear-Arsenal/Pub-ClassWork/assets/124786200/8486c28e-b230-49a1-9397-8270afdb19cf)
