@@ -18,11 +18,10 @@
 ![image](https://github.com/TwMoonBear-Arsenal/Pub-ClassWork/assets/144238471/b94b135c-3b09-4cbf-8cbb-7f0051695934)
 7.查看各個檔案，發現user.txt，取得第一階flag
 ![image](https://github.com/TwMoonBear-Arsenal/Pub-ClassWork/assets/144238471/5362da32-aa81-41d2-acf0-ee90f64503d9)
-8.
+8.取得root權限
 ![image](https://github.com/TwMoonBear-Arsenal/Pub-ClassWork/assets/144238471/fdcaa546-a178-4cfe-9ca0-c0f57bb66cdb)
-9.
 ![image](https://github.com/TwMoonBear-Arsenal/Pub-ClassWork/assets/144238471/11324959-be93-4fb7-a28e-bdd417a33525)
-10.
+9.取得第二階flag
 ![image](https://github.com/TwMoonBear-Arsenal/Pub-ClassWork/assets/144238471/e2f89aac-7445-4690-8977-5c51e1819a16)
 
 
